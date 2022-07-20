@@ -65,3 +65,51 @@ body {
 .top-player img {
     width: 100%;
 }
+
+/* footer part */
+footer {
+    width: auto;
+    height: 444px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.goal-logo {
+    width: 120px;
+    height: 40px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.goal-logo img {
+    width: 100%;
+}
+
+.horizontal-line {
+    border: .1px solid grey;
+    margin: 50px 100px;
+}
+
+.footer-menu {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.footer-item {
+    margin-right: 35px;
+    color: #B9B9B9;
+}
+
+.footer-icon {
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 3em;
+}
