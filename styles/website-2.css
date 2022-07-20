@@ -1,0 +1,212 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins&display=swap');
+
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header part */
+.top-banner {
+    width: 1140px;
+    height: 646px;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+}
+
+.top-blog {
+    width: 481px;
+    height: 424px;
+    margin-top: 111px;
+    margin-right: 14px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 59px;
+}
+
+.top-title {
+    font-size: 55px;
+    line-height: 70px;
+}
+
+.tickets {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+
+.fa-greater-than {
+    margin-left: 8px;
+}
+
+.white-color {
+    color: white;
+}
+
+.top-player {
+    width: 531px;
+    height: 613px;
+    margin-top: 87px;
+    margin-right: 45px;
+    margin-bottom: 0;
+}
+
+.top-player img {
+    width: 100%;
+}
+
+/* main start */
+.middle-part {
+    width: 1140px;
+    height: 508px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 130px;
+    display: flex;
+}
+
+/* Navbar */
+.navbar-box {
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.navbar-menu {
+    width: 165px;
+    height: 165px;
+    margin: 30px;
+}
+
+.navbar-menu p {
+    width: 165px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.upcoming-match {
+    margin-bottom: 15px;
+}
+
+#up-color {
+    background-color: chocolate;
+}
+
+#blog {
+    background-color: whitesmoke;
+}
+
+/* Upcoming World Cup Matches */
+.upcoming-matches {
+    width: 891px;
+    height: 508px;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px 24px;
+}
+
+.match-day {
+    width: 280px;
+    height: 300px;
+    box-shadow: 0 0 0 0.4px rgb(29, 8, 8);
+    border-radius: 10px;
+}
+
+.blog-images {
+    display: flex;
+    width: 270px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+
+.blog-images img {
+    width: 90px;
+    height: 80px;
+}
+
+#blog-image {
+    margin: 10px 20px;
+    font-size: 20px;
+    color: #1D1D1D;
+}
+
+.match-info {
+    width: 270px;
+    text-align: center;
+}
+
+.match-info h3 {
+    font-size: 20px;
+    color: #0c0202;
+}
+
+.match-info p {
+    font-size: 16px;
+    color: #0c0202;
+}
+
+/* footer part */
+footer {
+    width: auto;
+    height: 444px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.goal-logo {
+    width: 120px;
+    height: 40px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.goal-logo img {
+    width: 100%;
+}
+
+.horizontal-line {
+    border: .1px solid grey;
+    margin: 50px 100px;
+}
+
+.footer-menu {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.footer-item {
+    margin-right: 35px;
+    color: #B9B9B9;
+}
+
+.footer-icon {
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 3em;
+}
