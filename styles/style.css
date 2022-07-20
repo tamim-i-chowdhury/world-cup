@@ -66,6 +66,99 @@ body {
     width: 100%;
 }
 
+/* main start */
+.middle-part {
+    width: 1140px;
+    height: 674px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 130px;
+    display: flex;
+}
+
+.navbar-box {
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.navbar-menu {
+    width: 165px;
+    height: 165px;
+    margin: 30px;
+}
+
+.navbar-menu p {
+    width: 165px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.upcoming-match {
+    margin-bottom: 15px;
+}
+
+#blog {
+    background-color: chocolate;
+}
+
+.transfer-area {
+    width: 891px;
+    height: 674px;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.transfer-news {
+    width: 281px;
+    height: 325px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.transfer-news button {
+    width: 100px;
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.transfer-news h3 {
+    width: 272px;
+    height: 54px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.transfer-news p {
+    margin-top: 35px;
+    width: 143px;
+    height: 26px;
+    margin-left: 10px;
+}
+
+.transfer-news span {
+    margin-right: 20px;
+}
+
+.fa-solid {
+    color: black;
+}
+
+.transfer-news img {
+    width: 100%;
+}
+
 /* footer part */
 footer {
     width: auto;
